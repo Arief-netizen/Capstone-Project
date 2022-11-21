@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+#navbar {
+  background-color: #ffffff;
+  padding: 10px 100px 10px 100px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  display: flex;
+}
+.nav-logo {
+  font-weight: 800;
+  font-size: 40px;
+  color: #041562;
+  margin-left: 0px;
+  flex-grow: 50%;
+  margin-right: 500px;
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 20px;
+  color: #041562;
+}
+
+footer {
+  background-color: #041562;
+  padding: 20px 100px 20px 100px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 0 !important;
+}
+.logo-white {
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 40px;
+}
+#subtitle {
+  color: #041562;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.description {
+  color: #0e0e0e;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: justify;
+  text-indent: 75px;
+}
+.section {
+  padding: 50px 100px 50px 100px;
+}
+
+button {
+  background: #041562;
+  border-radius: 10px;
+  padding: 10px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+}
+.layanan {
+  background: #eeeeee;
+}
