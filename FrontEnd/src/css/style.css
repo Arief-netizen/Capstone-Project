@@ -47,12 +47,16 @@ footer {
   font-weight: 300;
   font-size: 18px;
   text-align: justify;
-  text-indent: 75px;
+  text-indent: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .section {
   padding: 50px 100px 50px 100px;
 }
-
+.sub-section {
+  width: 50%;
+}
 button {
   background: #041562;
   border-radius: 10px;
@@ -63,4 +67,33 @@ button {
 }
 .layanan {
   background: #eeeeee;
+}
+img {
+  width: 75%;
+}
+.card-title {
+  font-size: 18px;
+  color: #041562;
+  font-weight: 600;
+}
+.card-description {
+  font-size: 16px;
+  font-weight: 300;
+  text-align: justify;
+}
+.card-button {
+  background: #041562;
+  border-radius: 10px;
+  padding: 5px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 15px;
+  width: 75%;
+}
+.card-img {
+  width: 40%;
+  padding: 10px;
+}
+.item-layanan {
+  border-radius: 10px;
 }
