@@ -22,7 +22,7 @@ class AppBar extends HTMLElement {
             <a
               class="nav-link active"
               data-toggle="tab"
-              href="#beranda"
+              href="./index.html"
               style="color: #041562"
               >Beranda</a
             >
@@ -40,7 +40,7 @@ class AppBar extends HTMLElement {
             <a
               class="nav-link"
               data-toggle="tab"
-              href="#cekKesehatan"
+              href="./input-cek.html"
               style="color: #041562"
               >Cek Kesehatan</a
             >

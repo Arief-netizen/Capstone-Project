@@ -55,7 +55,7 @@ footer {
 button {
   background: #041562;
   border-radius: 10px;
-  padding: 10px;
+  padding: 5px;
   color: #ffffff;
   font-weight: 500;
   font-size: 20px;
@@ -92,6 +92,15 @@ button {
 .item-layanan {
   border-radius: 10px;
   min-height: 350px;
+}
+.subtitle-description {
+  font-size: 20px;
+  font-weight: 500;
+  color: #041562;
+}
+.form-control {
+  border-color: #11468f;
+  /* margin-bottom: 20px; */
 }
 @media screen and (max-width: 750px) {
   #subtitle {
