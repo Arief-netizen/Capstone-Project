@@ -169,44 +169,79 @@ const artikelData = [
       "https://www.halodoc.com/artikel/jangan-main-main-dengan-stroke-ringan-ini-4-cara-mengatasinya",
   },
   {
-    judul: "",
-    penulis: "",
-    tanggal_terbit: "",
-    img_url: "",
-    deskripsi: ``,
-    sumber: "",
+    judul: "Faktor Risiko TIA (Transient Ischaemic Attack)",
+    penulis: "dr. Rizal Fadli ",
+    tanggal_terbit: "22 Agustus 2022",
+    img_url:
+      "https://d1bpj0tv6vfxyp.cloudfront.net/articles/631823_22-8-2022_11-42-4.webp",
+    deskripsi: `Transient ischaemic attack (TIA) adalah stroke ringan. Kondisi ini terjadi saat pasokan darah ke otak mengalami gangguan sesaat dan biasanya berlangsung sebentar. Meski begitu, kondisi ini perlu diwaspadai karena menjadi peringatan datangnya serangan yang lebih parah. Sebuah studi menyebutkan jika seseorang yang mengalami TIA berisiko lebih besar mengidap stroke dan serangan jantung.
+
+    Waspada Gejala Transient Ischaemic Attack (TIA)
+    Gejala TIA umumnya terjadi secara mendadak dan hampir mirip dengan gejala awal stroke, di antaranya adalah:
+    
+    Salah satu sisi mulut dan wajah menurun.
+    Lengan atau kaki melemah dan sulit digerakkan.
+    Penurunan kemampuan berbicara.
+    Kesulitan memahami kata-kata orang lain.
+    Kesulitan menelan.
+    Kehilangan keseimbangan tubuh.
+    Pandangan kabur hingga kebutaan.
+    Nyeri kepala tiba-tiba dan berat tanpa penyebab yang jelas.
+    Kamu perlu segera bicara pada dokter jika mengalami gejala di atas. Diagnosis TIA dilakukan dengan pemeriksaan fisik dan penunjang, seperti pemeriksaan tekanan darah, kolesterol, gula darah, dan kadar asam amino homosistein dalam tubuh. Pemeriksaan pencitraan yang dilakukan umumnya berupa ultrasonografi (USG), Computerized Tomography (CT) scan, Magnetic Resonance Imaging (MRI), Magnetic Resonance Angiography (MRA), ekokardiografi, dan arteriografi.
+    
+    Setelah diagnosis TIA ditetapkan, pengobatan disesuaikan dengan penyebab yang mendasarinya. Namun secara umum, pengobatan TIA bertujuan memperbaiki keabnormalan dan mencegah risiko stroke dengan pemberian obat-obatan hingga prosedur operasi.
+    
+    Ketahui Faktor Risiko Transient Ischaemic Attack (TIA)
+    Penyebab utama TIA adalah penggumpalan darah dalam arteri yang menyumbat aliran darah ke otak. Selain itu, ada faktor yang meningkatkan risiko terjadinya TIA, seperti:
+    
+    Usia. TIA lebih rentan terjadi pada orang yang berusia lanjut, yakni lebih dari 55 tahun.
+    Jenis kelamin. Pria lebih berisiko mengidap TIA dibanding wanita.
+    Memiliki tekanan darah dan kadar kolesterol tinggi.
+    Faktor genetik. Kamu berisiko lebih besar mengidap TIA jika ada anggota keluarga yang pernah mengalaminya.
+    Pola hidup yang kurang baik, seperti kebiasaan merokok, sering mengonsumsi minuman keras, kurang berolahraga, banyak konsumsi makanan asin dan berlemak, serta menggunakan obat-obatan terlarang.
+    Masalah kesehatan, seperti kelainan jantung, gagal jantung, detak jantung abnormal (seperti bradikardi dan takikardi), dan diabetes.
+    Cegah Transient Ischaemic Attack (TIA) dengan Gaya Hidup Sehat
+    Berikut cara mencegah TIA yang bisa dilakukan:
+    
+    Rutin berolahraga untuk melancarkan aliran darah dan menjaga kebugaran tubuh. Durasi aktivitas fisik yang dianjurkan adalah 2,5 jam per minggu atau sekitar 15 - 30 menit per hari.
+    Berhenti merokok, hindari penyalahgunaan obat-obatan, dan konsumsi minuman beralkohol.
+    Rutin memantau tekanan darah dan kolesterol dalam tubuh.
+    Menjaga berat badan agar tetap ideal. Kelebihan berat badan (overweight) dan obesitas meningkatkan risiko terjadinya TIA.
+    Menerapkan pola makan sehat. Perbanyak konsumsi buah dan sayuran, serta membatasi asupan garam dan lemak harian. Terlalu banyak konsumsi makanan berlemak meningkatkan risiko pembentukan plak dalam pembuluh darah arteri yang memicu TIA dan penyakit kardiovaskuler lainnya (seperti stroke, diabetes dan serangan jantung.`,
+    sumber:
+      "https://www.halodoc.com/artikel/faktor-risiko-tia-transient-ischaemic-attack",
   },
-  {
-    judul: "",
-    penulis: "",
-    tanggal_terbit: "",
-    img_url: "",
-    deskripsi: ``,
-    sumber: "",
-  },
-  {
-    judul: "",
-    penulis: "",
-    tanggal_terbit: "",
-    img_url: "",
-    deskripsi: ``,
-    sumber: "",
-  },
-  {
-    judul: "",
-    penulis: "",
-    tanggal_terbit: "",
-    img_url: "",
-    deskripsi: ``,
-    sumber: "",
-  },
-  {
-    judul: "",
-    penulis: "",
-    tanggal_terbit: "",
-    img_url: "",
-    deskripsi: ``,
-    sumber: "",
-  },
+  // {
+  //   judul: "",
+  //   penulis: "",
+  //   tanggal_terbit: "",
+  //   img_url: "",
+  //   deskripsi: ``,
+  //   sumber: "",
+  // },
+  // {
+  //   judul: "",
+  //   penulis: "",
+  //   tanggal_terbit: "",
+  //   img_url: "",
+  //   deskripsi: ``,
+  //   sumber: "",
+  // },
+  // {
+  //   judul: "",
+  //   penulis: "",
+  //   tanggal_terbit: "",
+  //   img_url: "",
+  //   deskripsi: ``,
+  //   sumber: "",
+  // },
+  // {
+  //   judul: "",
+  //   penulis: "",
+  //   tanggal_terbit: "",
+  //   img_url: "",
+  //   deskripsi: ``,
+  //   sumber: "",
+  // },
 ];
 export default artikelData;

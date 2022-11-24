@@ -3,3 +3,4 @@ import "./script/component/app-bar.js";
 import "./script/component/section-layanan.js";
 import "./script/component/section-mengapaHealthcare.js";
 import "./script/component/section-definisi.js";
+import "./script/component/artikel-list.js";
