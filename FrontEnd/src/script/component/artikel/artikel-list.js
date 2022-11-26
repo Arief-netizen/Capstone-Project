@@ -1,5 +1,5 @@
 import "./artikel-item.js";
-import artikelData from "../artikel-data.js";
+import artikelData from "./artikel-data.js";
 
 class ArtikelList extends HTMLElement {
   connectedCallback() {

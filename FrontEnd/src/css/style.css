@@ -17,8 +17,11 @@ body {
 .nav-link {
   font-weight: 500;
   font-size: 20px;
+  color: #eeeeee;
 }
-
+.active {
+  color: #041562;
+}
 footer {
   background-color: #041562;
   padding: 20px 100px 20px 100px;

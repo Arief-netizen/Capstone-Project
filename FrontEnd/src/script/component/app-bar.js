@@ -17,40 +17,41 @@ class AppBar extends HTMLElement {
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav" style="padding-top: 10px">
+        <ul class="navbar-nav" role="tablist" style="padding-top: 10px">
           <li class="nav-item">
             <a
+              id="nav-beranda"
               class="nav-link active"
               data-toggle="tab"
-              href="./index.html"
-              style="color: #041562"
+              href="#beranda"
               >Beranda</a
             >
           </li>
           <li class="nav-item">
             <a
+              id="nav-tentang-kami"
               class="nav-link"
               data-toggle="tab"
               href="#tentangKami"
-              style="color: #041562"
               >Tentang Kami</a
             >
           </li>
           <li class="nav-item">
             <a
+              id="nav-input"
               class="nav-link"
               data-toggle="tab"
-              href="./input-cek.html"
-              style="color: #041562"
+              href="#input"
+              
               >Cek Kesehatan</a
             >
           </li>
           <li class="nav-item">
             <a
+              id="nav-artikel"
               class="nav-link"
               data-toggle="tab"
               href="#artikel"
-              style="color: #041562"
               >Artikel Kesehatan</a
             >
           </li>

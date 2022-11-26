@@ -1,18 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>Deteksi Penyakit Stroke</title>
-  </head>
-  <body>
-    <app-bar></app-bar>
-    <div class="section" style="text-align: center">
+class InputPage extends HTMLElement {
+  connectedCallback() {
+    this.render();
+  }
+  render() {
+    this.innerHTML = `
+        <div class="section" style="text-align: center">
       <img
         class="rounded-circle"
         src="./asset/img/icon_layanan_cek_kesehatan.png"
@@ -148,17 +140,7 @@
       </form>
     </div>
 
-    <footer>
-      <footer-healthcare></footer-healthcare>
-    </footer>
-
-    <script
-      src="https://kit.fontawesome.com/5888c925db.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./index.js" type="module"></script>
-  </body>
-</html>
+        `;
+  }
+}
+customElements.define("input-page", InputPage);
