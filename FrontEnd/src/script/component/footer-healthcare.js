@@ -8,8 +8,8 @@ class FooterHealthcare extends HTMLElement {
     <div class="d-md-flex flex-md-row text-white">
       <div class="sub-section">
         <p class="pb-3 pt-2">Jl. XXX, Indonesia</p>
-        <p class="pb-2">Tentang Kami</p>
-        <p class="pb-2">Kebijakan Privasi</p>
+        <p class="pb-2"><a class="text-white"href="./about-page.html">Tentang Kami</a></p>
+        <p class="pb-2"><a class="text-white"href="./privacy-polici.html">Kebijakan Privasi</a></p>
       </div>
 
       <div class="sub-section">

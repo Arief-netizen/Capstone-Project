@@ -7,7 +7,7 @@ class ArtikelPage extends HTMLElement {
   render() {
     this.innerHTML = `
     <div class="section">
-      <artikel-seacrhbar></artikel-seacrhbar>
+      <artikel-searchbar></artikel-searchbar>
       <artikel-list class="row artikel-list mt-5 mb-5"></artikel-list>
     </div>   
       `;

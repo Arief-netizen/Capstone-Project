@@ -17,13 +17,12 @@ class AppBar extends HTMLElement {
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav" role="tablist" style="padding-top: 10px">
+        <ul class="navbar-nav"  style="padding-top: 10px">
           <li class="nav-item">
             <a
               id="nav-beranda"
               class="nav-link active"
-              data-toggle="tab"
-              href="#beranda"
+              href="./index.html"
               >Beranda</a
             >
           </li>
@@ -31,8 +30,7 @@ class AppBar extends HTMLElement {
             <a
               id="nav-tentang-kami"
               class="nav-link"
-              data-toggle="tab"
-              href="#tentangKami"
+              href="./about-page.html"
               >Tentang Kami</a
             >
           </li>
@@ -40,8 +38,7 @@ class AppBar extends HTMLElement {
             <a
               id="nav-input"
               class="nav-link"
-              data-toggle="tab"
-              href="#input"
+              href="./input-page.html"
               
               >Cek Kesehatan</a
             >
@@ -50,8 +47,8 @@ class AppBar extends HTMLElement {
             <a
               id="nav-artikel"
               class="nav-link"
-              data-toggle="tab"
-              href="#artikel"
+              
+              href="./artikel-page.html"
               >Artikel Kesehatan</a
             >
           </li>
