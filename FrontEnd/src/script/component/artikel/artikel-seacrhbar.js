@@ -4,7 +4,7 @@ class ArtikelSearchBar extends HTMLElement {
   }
   render() {
     this.innerHTML = `
-      <form class="row" action="/action_page.php">
+      <form class="row">
         <div class="col-lg-10 col-md-10 col-sm-12 mb-2">
           <input
             type="text"
@@ -14,7 +14,7 @@ class ArtikelSearchBar extends HTMLElement {
             name="search-keywor"
           />
         </div>
-        <button class="col-lg-2 col-md-2 col-sm-12 mb-2" type="submit">
+        <button id="searchArtikelButton" class="col-lg-2 col-md-2 col-sm-12 mb-2">
           Cari
         </button>
       </form>

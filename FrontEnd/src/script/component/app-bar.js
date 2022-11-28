@@ -16,8 +16,8 @@ class AppBar extends HTMLElement {
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav"  style="padding-top: 10px">
+      <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar" >
+        <ul class="navbar-nav"  style="padding-top: 10px text-align:right">
           <li class="nav-item">
             <a
               id="nav-beranda"
