@@ -3,9 +3,11 @@ class ArtikelDetail extends HTMLElement {
     this._artikel = artikel;
     this.render();
   }
+
   render() {
     this.innerHTML = `
-    <div class="section">
+    <div class="section" id="#demo">
+   
     <p class="artikel-title">
       ${this._artikel.judul}
     </p>
@@ -29,6 +31,7 @@ class ArtikelDetail extends HTMLElement {
         >${this._artikel.sumber}</a
       >
     </p>
+    <p id="demo"></p>
   </div>
       `;
   }

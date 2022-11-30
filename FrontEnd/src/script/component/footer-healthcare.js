@@ -22,7 +22,7 @@ class FooterHealthcare extends HTMLElement {
         </p>
       </div>
     </div>
-    <p class="text-white text-center pt-3">&#169; Healthcare.id, 2022</p>
+    <p class="text-white text-center pt-3">Created by C22-083 team, &#169; 2022</p>
       `;
   }
 }
