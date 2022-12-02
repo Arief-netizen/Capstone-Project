@@ -15,10 +15,13 @@ class InputPage extends HTMLElement {
         Diagnosa sekarang, dan hindari risikonya
       </p>
       <form
-       id = "formCekKesehatan"
+        id = "formCekKesehatan"
+        method="GET"
+        action="./result-page.html"
         class="mt-5"
-        
         style="text-align: start"
+        
+        
       >
         <div class="row">
           <div class="col-lg-6 col-md-12 col-sm-12">
@@ -136,7 +139,7 @@ class InputPage extends HTMLElement {
             </div>
           </div>
         </div>
-        <button type="submit" class="mt-3" style="width: 100%">Kirim</button>
+        <button id="cekKesehatanSubmit" type="submit" class="mt-3" style="width: 100%">Kirim</button>
       </form>
     </div>
 
