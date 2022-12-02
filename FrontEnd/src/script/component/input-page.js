@@ -15,9 +15,9 @@ class InputPage extends HTMLElement {
         Diagnosa sekarang, dan hindari risikonya
       </p>
       <form
+       id = "formCekKesehatan"
         class="mt-5"
-        method="GET"
-        action="./result-page.html"
+        
         style="text-align: start"
       >
         <div class="row">

@@ -12,14 +12,15 @@ class ArtikelDetail extends HTMLElement {
       ${this._artikel.judul}
     </p>
     <p class="artikel-subtitle">
-      <i class="fa-solid fa-user" style="color: #041562"></i>${
+      <i class="fa-solid fa-user" style="color: #041562"></i> ${
         this._artikel.penulis + ", " + this._artikel.tanggal_terbit
       }
     </p>
     <img
       src="${this._artikel.img_url}"
       alt="Gambar artikel"
-      style="width: 100%"
+      style="width: 100%;"
+      
     />
     <p class="description">
       ${this._artikel.deskripsi}
