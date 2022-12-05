@@ -12,4 +12,4 @@
     pip install flask
     ```
 
-4. Run `app.py`.
+4. Kemudian run `app.py`.
