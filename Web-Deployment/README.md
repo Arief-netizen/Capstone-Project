@@ -1,8 +1,8 @@
 ## Testing deployment
 [![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370/)
 
-1. Buka folder project Web-Deployment pada text editor
-2. Pada file app.py di line 33 dan line 41, sesuaikan path folder project yang tersimpan di laptop kalian.
+1. Buka folder project `Web-Deployment` pada text editor.
+2. Pada file `app.py` di `line 33` dan `line 41`, sesuaikan path folder project yang tersimpan di laptop kalian.
 3. Install di Terminal:
 
     ```
@@ -12,4 +12,4 @@
     pip install flask
     ```
 
-4. Run app.py
+4. Run `app.py`.
