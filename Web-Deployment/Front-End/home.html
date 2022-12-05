@@ -1,0 +1,120 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Prediksi Seterok</title>
+    </head>
+    <body style="background-color: #FFFBE9">
+        <div>
+            <div style="text-align:center">
+                <h1>PREDIKSI SETEROK</h1><br>
+                <br>
+                <form action="{{url_for('result')}}" method="post">
+                    <div>
+                        <div>
+                            <p>Jenis Kelamin:</p>
+                            <input type="radio" id="gender" name="gender" value="1" required>
+                            <label for="gender">Laki-laki</label>
+                            <input type="radio" name="gender" value="0">
+                            <label for="gender">Perempuan</label><br>
+                            <br>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="age">Umur Anda:</label><br>
+                            <input type="number" id="age" name="age" placeholder="Masukkan Umur" required><br>
+                            <br>
+                        </div>
+                        <br>
+                        <div>
+                            <p>Memiliki Tekanan Darah Tinggi?</p>
+                            <input type="radio" id="hypertension" name="hypertension" value="1" required>
+                            <label for="hypertension">Ya</label>
+                            <input type="radio" name="hypertension" value="0">
+                            <label for="hypertension">Tidak</label><br>
+                            <br>
+                        </div>
+                        <br>
+                        <div>
+                            <p>Memiliki Penyakit Jantung?</p>
+                            <input type="radio" id="heart_disease" name="heart_disease" value="1" required>
+                            <label for="heart_disease">Ya</label>
+                            <input type="radio" name="heart_disease" value="0">
+                            <label for="heart_disease">Tidak</label><br>
+                            <br>
+                        </div>
+                        <br>
+                        <div>
+                            <p>Status Menikah?</p>
+                            <input type="radio" id="ever_married" name="ever_married" value="1" required>
+                            <label for="ever_married">Sudah Menikah</label>
+                            <input type="radio" name="ever_married" value="0">
+                            <label for="ever_married">Belum Menikah</label><br>
+                            <br>
+                        </div>
+                        <br>
+                        <div>
+                            <p>Jenis Pekerjaan?</p>
+                            <input type="radio" id="work_type" name="work_type" value="0" required>
+                            <label for="work_type">PNS</label>
+                            <input type="radio" name="work_type" value="2">
+                            <label for="work_type">Swasta</label>
+                            <input type="radio" name="work_type" value="3">
+                            <label for="work_type">Wiraswasta</label>
+                            <input type="radio" name="work_type" value="1">
+                            <label for="work_type">Tidak Bekerja</label>
+                            <input type="radio" name="work_type" value="4">
+                            <label for="work_type">Masih Anak-anak</label><br>
+                            <br>
+                        </div>
+                        <br>
+                        <div>
+                            <p>Lingkungan Tempat Tinggal?</p>
+                            <input type="radio" id="Residence_type" name="Residence_type" value="1" required>
+                            <label for="Residence_type">Perkotaan</label>
+                            <input type="radio" name="Residence_type" value="0">
+                            <label for="Residence_type">Pedesaan</label><br>
+                            <br>
+                        </div>
+                        <br>
+                        <div>
+                            <br>
+                            <label for="avg_glucose_level">Rata-rata Glukosa Anda:</label>
+                            <br>
+                            <input type="number" step="0.01" id="avg_glucose_level" name="avg_glucose_level" placeholder="Masukkan Rata-rata Glukosa Anda" required><br>
+                            <br>
+                        </div>
+                        <br>
+                        <div>
+                            <br>
+                            <label for="bmi">Berat Badan Anda:</label><br>
+                            <input type="number" step="0.01" id="bmi" name="bmi" placeholder="Masukkan Berat Badan Anda" required><br>
+                            <br>
+                        </div>
+                        <br>
+                        <div>
+                            <p>Status Merokok?</p>
+                            <input type="radio" id="smoking_status" name="smoking_status" value="3" required>
+                            <label for="smoking_status">Aktif Merokok</label>
+                            <input type="radio" name="smoking_status" value="1">
+                            <label for="smoking_status">Pernah Merokok (sudah berhenti)</label>
+                            <input type="radio" name="smoking_status" value="2">
+                            <label for="smoking_status">Tidak Pernah Merokok</label>
+                            <input type="radio" name="smoking_status" value="0">
+                            <label for="smoking_status">Tidak Diketahui</label><br>
+                            <br>
+                        </div>
+                        <br>
+                        <br>
+                        <div>
+                            <button type="submit" style="padding: 15px 32px; background-color:orange; color: white; font-size:16px" value="submit">Submit</button><br>
+                        </div>
+                        <br>
+                        <br>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
