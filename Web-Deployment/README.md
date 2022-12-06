@@ -14,3 +14,4 @@
     ```
 
 4. Kemudian run code `app.py`.
+5. Jalankan http://127.0.0.1:7654 pada web browser.
