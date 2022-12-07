@@ -8,7 +8,6 @@ import joblib
 
 app = Flask(__name__, template_folder="Front-End")
 
-
 @app.route("/")
 def index():
     return render_template("home.html")
@@ -39,7 +38,7 @@ def result():
     x = scaler.transform(x)
 
     model_path = os.path.join('D:/Web-Deployment',      # Ini juga
-                              'ML-Model/rf.sav')
+                              'ML-Model/model.pkl')
     rf = joblib.load(model_path)
 
     Y_pred = rf.predict(x)
