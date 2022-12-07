@@ -1,13 +1,9 @@
-from flask import Flask
-from flask import render_template
-from flask import request
+from flask import Flask, render_template, request
 import numpy as np
 import os
 import pickle
 
 app = Flask(__name__, template_folder="Front-End")
-
-model = pickle.load(open('ML-Model/model.pkl', 'rb'))
 
 
 @app.route("/")
@@ -28,24 +24,27 @@ def result():
     bmi = float(request.form['bmi'])
     smoking_status = int(request.form['smoking_status'])
 
-    x = np.array([gender, age, hypertension, heart_disease, ever_married, work_type,
+    trans = np.array([gender, age, hypertension, heart_disease, ever_married, work_type,
                   Residence_type, avg_glucose_level, bmi, smoking_status]).reshape(1, -1)
 
-    scaler_path = os.path.join('ML-Model/scaler.pkl') 
-                               
-    scaler = None
-    with open(scaler_path, 'rb') as scaler_file:
-        scaler = pickle.load(scaler_file)
+    scaler_file = os.path.join('ML-Models/scaler.pkl')
 
-    x = scaler.transform(x)
+    with open(scaler_file, 'rb') as scaler_pkl:
+        scaler = pickle.load(scaler_pkl)
 
-    prediction = model.predict_proba(x)
-    output = '{0:.{1}f}'.format(prediction[0][1], 2)
+    trans = scaler.transform(trans)
 
-    if output>str(0.5):
-        return render_template('stroke-yes.html', pred='Probabilitas Anda terkena stroke adalah : {}'.format(output))
+    model_file = os.path.join('ML-Models/model.pkl')
+    
+    with open(model_file, 'rb') as model_pkl:
+        model = pickle.load(model_pkl)
+
+    pred = model.predict(trans)
+
+    if pred == 1:
+        return render_template('stroke-yes.html')
     else:
-        return render_template('stroke-no.html', pred='Probabilitas Anda terkena stroke adalah : {}'.format(output))
+        return render_template('stroke-no.html')
 
 
 if __name__ == "__main__":
