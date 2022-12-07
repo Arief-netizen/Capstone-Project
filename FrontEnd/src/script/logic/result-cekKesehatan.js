@@ -10,3 +10,9 @@ for (var i = 0; i < args.length; ++i) {
   }
 }
 console.log(inputCekKesehatan);
+
+let result = false;
+if (result == false) {
+  document.getElementById("result-yes").removeAttribute("hidden");
+  document.getElementById("result-no").setAttribute("hidden", true);
+}

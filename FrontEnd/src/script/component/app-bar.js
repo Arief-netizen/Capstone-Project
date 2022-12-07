@@ -29,7 +29,7 @@ class AppBar extends HTMLElement {
           <li class="nav-item">
             <a
               id="nav-tentang-kami"
-              class="nav-link"
+              class="nav-link active"
               href="./about-page.html"
               >Tentang Kami</a
             >
@@ -37,7 +37,7 @@ class AppBar extends HTMLElement {
           <li class="nav-item">
             <a
               id="nav-input"
-              class="nav-link"
+              class="nav-link active"
               href="./input-page.html"
               
               >Cek Kesehatan</a
@@ -46,7 +46,7 @@ class AppBar extends HTMLElement {
           <li class="nav-item">
             <a
               id="nav-artikel"
-              class="nav-link"
+              class="nav-link active"
               
               href="./artikel-page.html"
               >Artikel Kesehatan</a

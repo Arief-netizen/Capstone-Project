@@ -19,7 +19,6 @@ class ArtikelItem extends HTMLElement {
             </p>
             <p class="card-description">${this._artikel.tanggal_terbit}</p>
             <a style="text-decoration:none;"id="link-detail-artikel" href="./artikel-detail.html?judul=${this._artikel.judul}" style="text-align: end">Selengkapnya</a>
-            
             </div>
         </div>`;
   }
