@@ -7,7 +7,7 @@ import pickle
 
 app = Flask(__name__, template_folder="Front-End")
 
-model = pickle.load(open('ML-Models/model.pkl', 'rb'))
+model = pickle.load(open('ML-Model/model.pkl', 'rb'))
 
 
 @app.route("/")
@@ -31,7 +31,7 @@ def result():
     x = np.array([gender, age, hypertension, heart_disease, ever_married, work_type,
                   Residence_type, avg_glucose_level, bmi, smoking_status]).reshape(1, -1)
 
-    scaler_path = os.path.join('ML-Models/scaler.pkl') 
+    scaler_path = os.path.join('ML-Model/scaler.pkl') 
                                
     scaler = None
     with open(scaler_path, 'rb') as scaler_file:
