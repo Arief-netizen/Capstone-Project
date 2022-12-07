@@ -29,16 +29,16 @@ def result():
     x = np.array([gender, age, hypertension, heart_disease, ever_married, work_type,
                   Residence_type, avg_glucose_level, bmi, smoking_status]).reshape(1, -1)
 
-    scaler_path = os.path.join('D:/Web-Deployment',     # Sesuaikan dengan path folder project di laptop kelen
-                               'ML-Model/scaler.pkl')
+    scaler_path = os.path.join('ML-Model/scaler.pkl')                             
     scaler = None
+    
     with open(scaler_path, 'rb') as scaler_file:
         scaler = pickle.load(scaler_file)
 
     x = scaler.transform(x)
 
-    model_path = os.path.join('D:/Web-Deployment',      # Ini juga
-                              'ML-Model/model.pkl')
+    model_path = os.path.join('ML-Model/model.pkl')
+                              
     rf = joblib.load(model_path)
 
     Y_pred = rf.predict(x)
