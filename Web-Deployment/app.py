@@ -4,9 +4,11 @@ from flask import request
 import numpy as np
 import os
 import pickle
-import joblib
 
 app = Flask(__name__, template_folder="Front-End")
+
+model = pickle.load(open('ML-Models/model.pkl', 'rb'))
+
 
 @app.route("/")
 def index():
@@ -29,24 +31,21 @@ def result():
     x = np.array([gender, age, hypertension, heart_disease, ever_married, work_type,
                   Residence_type, avg_glucose_level, bmi, smoking_status]).reshape(1, -1)
 
-    scaler_path = os.path.join('ML-Model/scaler.pkl')                             
+    scaler_path = os.path.join('ML-Models/scaler.pkl') 
+                               
     scaler = None
-    
     with open(scaler_path, 'rb') as scaler_file:
         scaler = pickle.load(scaler_file)
 
     x = scaler.transform(x)
 
-    model_path = os.path.join('ML-Model/model.pkl')
-                              
-    rf = joblib.load(model_path)
+    prediction = model.predict_proba(x)
+    output = '{0:.{1}f}'.format(prediction[0][1], 2)
 
-    Y_pred = rf.predict(x)
-
-    if Y_pred == 1:
-        return render_template('stroke-yes.html')
+    if output>str(0.5):
+        return render_template('stroke-yes.html', pred='Probabilitas Anda terkena stroke adalah : {}'.format(output))
     else:
-        return render_template('stroke-no.html')
+        return render_template('stroke-no.html', pred='Probabilitas Anda terkena stroke adalah : {}'.format(output))
 
 
 if __name__ == "__main__":
