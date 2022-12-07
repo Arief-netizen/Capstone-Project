@@ -3,8 +3,7 @@
 
 (Usahakan nama folder sama)
 1. Buka folder project `Web-Deployment` pada text editor.
-2. Pada file `app.py` di `line 33` dan `line 41`, sesuaikan path folder project `Web-Deployment` yang tersimpan di laptop kalian.
-3. Install di Terminal:
+2. Install di Terminal:
 
     ```
     pip install scikit-learn
@@ -13,5 +12,5 @@
     pip install flask
     ```
 
-4. Kemudian run code `app.py`.
-5. Jalankan http://127.0.0.1:7654 pada web browser.
+3. Kemudian run code `app.py`.
+4. Jalankan http://127.0.0.1:7654 pada web browser.
