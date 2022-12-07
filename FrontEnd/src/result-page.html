@@ -13,13 +13,27 @@
   <body>
     <app-bar></app-bar>
     <div class="section">
-      <div class="result p-5 mb-5">
-        <h6 class="result-main">
+      <div class="result p-5 mb-5" id="result-no">
+        <h6 class="result-main" id="result-main">
           Selamat anda tidak berpeluang terserang serangan STROKE
         </h6>
-        <p class="result-message">
+        <p class="result-message" id="result-message">
           tetap jaga kesehatan Anda dengan menerapkan beberapa saran kegiatan
           berikut
+        </p>
+      </div>
+      <div class="result p-5 mb-5" id="result-yes" hidden="true">
+        <h6
+          style="color: rgb(231, 69, 69)"
+          class="result-main"
+          id="result-main"
+        >
+          Anda berpeluang terserang serangan STROKE
+        </h6>
+        <p class="result-message" id="result-message">
+          segera menghubungi dokter untuk pemeriksaan lebih lengkap dan
+          mendapatkan evaluasi risiko Anda. Saran yang dapat diberikan sementara
+          seperti yang tertera dibawah ini
         </p>
       </div>
       <div class="row">
