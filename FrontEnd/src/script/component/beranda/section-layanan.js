@@ -24,7 +24,7 @@ class SectionLayanan extends HTMLElement {
                   Cek kesehatan akan membantu anda untuk mengetahui tingkat
                   kemungkinan anda terserang penyakit stroke.
                 </p>
-                <button class="card-button"><a class="text-white" href="./input-page.html">Mulai Cek</a></button>
+                <button class="card-button"><a style="text-decoration:none;" class="text-white" href="./input-page.html">Mulai Cek</a></button>
               </div>
             </div>
           </div>
@@ -41,7 +41,7 @@ class SectionLayanan extends HTMLElement {
                   Artikel akan membantu anda untuk mendapatkan informasi
                   seputar stroke dan informasi kesehatan lainnya.
                 </p>
-                <button class="card-button"><a class="text-white" href="./artikel-page.html">Baca Artikel</a></button>
+                <button class="card-button"><a style="text-decoration:none;" class="text-white" href="./artikel-page.html">Baca Artikel</a></button>
               </div>
             </div>
           </div>

@@ -19,7 +19,7 @@ class SectionDefinisi extends HTMLElement {
             treatment yang telah kami sarankan untuk mencegah terkena stroke
             secara lebih lanjut.
           </p>
-          <button><a class="text-white" href="./input-page.html">Mulai Cek Kesehatan</a></button>
+          <button><a style="text-decoration:none;" class="text-white" href="./input-page.html">Mulai Cek Kesehatan</a></button>
         </div>
       </div>
     </div>`;

@@ -8,6 +8,7 @@ class ArtikelItem extends HTMLElement {
     this.innerHTML = `
         <div class="card item-artikel">
             <img
+            style="height:250px"
             class="card-img-top"
             alt="gambar"
             src="${this._artikel.img_url}"
@@ -17,7 +18,7 @@ class ArtikelItem extends HTMLElement {
             ${this._artikel.judul}
             </p>
             <p class="card-description">${this._artikel.tanggal_terbit}</p>
-            <a id="link-detail-artikel" href="./artikel-detail.html?judul=${this._artikel.judul}" style="text-align: end">Selengkapnya</a>
+            <a style="text-decoration:none;"id="link-detail-artikel" href="./artikel-detail.html?judul=${this._artikel.judul}" style="text-align: end">Selengkapnya</a>
             
             </div>
         </div>`;
