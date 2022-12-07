@@ -211,22 +211,47 @@ const artikelData = [
     sumber:
       "https://www.halodoc.com/artikel/faktor-risiko-tia-transient-ischaemic-attack",
   },
-  // {
-  //   judul: "",
-  //   penulis: "",
-  //   tanggal_terbit: "",
-  //   img_url: "",
-  //   deskripsi: ``,
-  //   sumber: "",
-  // },
-  // {
-  //   judul: "",
-  //   penulis: "",
-  //   tanggal_terbit: "",
-  //   img_url: "",
-  //   deskripsi: ``,
-  //   sumber: "",
-  // },
+  {
+    judul: "About Stroke ? (Bahasa Inggris)",
+    penulis: "CDC",
+    tanggal_terbit: "2022",
+    img_url: "https://www.cdc.gov/stroke/images/Stroke-Medical-Illustration.jpg?_=77303",
+    deskripsi: `A stroke, sometimes called a brain attack, occurs when something blocks blood supply to part of the brain or when a blood vessel in the brain bursts. In either case, parts of the brain become damaged or die. A stroke can cause lasting brain damage, long-term disability, or even death.
+    The brain controls our movements, stores our memories, and is the source of our thoughts, emotions, and language. The brain also controls many functions of the body, like breathing and digestion.
+    To work properly, your brain needs oxygen. Your arteries deliver oxygen-rich blood to all parts of your brain. If something happens to block the flow of blood, brain cells start to die within minutes, because they can’t get oxygen. This causes a stroke. A stroke is a serious medical condition that requires emergency care
+    `,
+    sumber: "https://www.cdc.gov/stroke/about.htm#:~:text=A%20stroke%2C%20sometimes%20called%20a,term%20disability%2C%20or%20even%20death.",
+  },
+  {
+    judul: "Apa itu Stroke?",
+    penulis: "dr. Pittara",
+    tanggal_terbit: "9 Mei 2022",
+    img_url: "https://res.cloudinary.com/dk0z4ums3/image/upload/v1589838507/attached_image/stroke-0-alodokter.jpg",
+    deskripsi: `Stroke adalah kondisi ketika pasokan darah ke otak terganggu karena penyumbatan (stroke iskemik) atau pecahnya pembuluh darah (stroke hemoragik). Kondisi ini menyebabkan area tertentu pada otak tidak mendapat suplai oksigen dan nutrisi sehingga terjadi kematian sel-sel otak.
+    Stroke merupakan keadaan darurat medis, karena tanpa suplai oksigen dan nutrisi, sel-sel pada bagian otak yang terdampak bisa mati hanya dalam hitungan menit. Akibatnya, bagian tubuh yang dikendalikan oleh area otak tersebut tidak bisa berfungsi dengan baik.
+    
+    Gejala stroke umumnya terjadi di bagian tubuh yang dikendalikan oleh area otak yang rusak. Gejala yang dialami penderita stroke bisa meliputi:
+    •	Lemah pada otot-otot wajah yang membuat satu sisi wajah turun
+    •	Kesulitan mengangkat kedua lengan akibat lemas atau mati rasa
+    •	Kesulitan berbicara
+    •	Disartria
+    •	Kesemutan
+    •	Kesulitan mengenal wajah (prosopagnosia)
+
+    Penyebab stroke secara umum terbagi menjadi dua, yaitu adanya gumpalan darah pada pembuluh darah di otak dan pecahnya pembuluh darah di otak.
+    Penyempitan atau pecahnya pembuluh darah tersebut dapat terjadi akibat beberapa faktor, seperti tekanan darah tinggi, penggunaan obat pengencer darah, aneurisma otak, dan trauma otak.
+    
+    Penanganan stroke tergantung pada jenis stroke yang dialami pasien. Tindakan yang dapat dilakukan bisa berupa pemberian obat-obatan atau operasi. Selain itu, untuk mendukung proses pemulihan, penderita akan disarankan untuk menjalani fisioterapi dan terapi psikologis.
+    
+    Pada umumnya, pencegahan stroke hampir sama dengan cara mencegah penyakit jantung, yaitu dengan menerapkan pola hidup sehat, seperti:
+    •	Menjaga tekanan darah agar tetap normal
+    •	Tidak merokok dan tidak mengonsumsi minuman beralkohol
+    •	Menjaga berat badan ideal
+    •	Berolahraga secara rutin
+    •	Menjalani pemeriksaan rutin untuk kondisi medis yang diderita, misalnya diabetes dan hipertensi
+    `,
+    sumber: "https://www.alodokter.com/stroke",
+  },
   // {
   //   judul: "",
   //   penulis: "",
