@@ -5,10 +5,9 @@ class InputPage extends HTMLElement {
   render() {
     this.innerHTML = `
         <div class="section" style="text-align: center">
-      <img
-        class="rounded-circle"
+      <img 
+        class="rounded-circle img-input-page"
         src="./asset/img/icon_layanan_cek_kesehatan.png"
-        style="width: 10%"
       />
       <p id="subtitle">Cek Kesehatanmu</p>
       <p class="subtitle-description">

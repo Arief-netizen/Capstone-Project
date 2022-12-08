@@ -19,6 +19,9 @@ body {
   font-size: 20px;
   color: #eeeeee;
 }
+.img-input-page {
+  width: 10%;
+}
 .active {
   color: #041562;
 }
@@ -167,6 +170,12 @@ a {
     font-size: 15px;
     font-weight: 400;
     margin-bottom: 0 !important;
+  }
+  .nav-link {
+    font-size: 15px;
+  }
+  .img-input-page {
+    width: 30%;
   }
 }
 
