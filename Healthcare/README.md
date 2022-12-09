@@ -12,4 +12,4 @@
 
 4. Untuk menghentikan server tekan `ctrl + c` pada terminal.
 
-5. Untuk refresh perubahan yang dilakukan haru stop server dulu lalu jalankan lagi, lalu reload halaman pada web
+5. Untuk refresh perubahan yang dilakukan harus stop server dulu lalu jalankan lagi, lalu reload halaman pada web
