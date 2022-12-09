@@ -1,4 +1,4 @@
-1. Buka folder project `Web-Deployment` pada text editor.
+1. Buka folder project `Healthcare` pada text editor.
 
 2. Jalankan melalui terminal untuk Install Dependencies yang ada didalam file "requirements.txt"
    ```
