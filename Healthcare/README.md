@@ -9,7 +9,9 @@
    ```
    flask run
    ```
+   
+4. Jalankan http://127.0.0.1:5000/ di browser
 
-4. Untuk menghentikan server tekan `ctrl + c` pada terminal.
+5. Untuk stop server tekan `ctrl + c` pada terminal.
 
-5. Untuk refresh perubahan yang dilakukan harus stop server dulu lalu jalankan lagi, lalu reload halaman pada web
+6. Untuk refresh perubahan yang dilakukan pada text editor harus stop server dulu pada terminal ```ctrl + c``` lalu ```flask run``` lagi, lalu reload halaman pada web
