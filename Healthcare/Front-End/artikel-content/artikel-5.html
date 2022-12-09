@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+    <title>Deteksi Penyakit Stroke</title>
+  </head>
+  <body>
+    <app-bar></app-bar>
+
+
+    <div class="section" id="#demo">
+      
+      <p class="artikel-title">
+        Faktor Risiko TIA (Transient Ischaemic Attack)
+      </p>
+      <p class="artikel-subtitle">
+        <i class="fa-solid fa-user" style="color: #041562"></i> dr. Rizal Fadli, 22 Agustus 2022
+      </p>
+      <img
+        src="https://d1bpj0tv6vfxyp.cloudfront.net/articles/631823_22-8-2022_11-42-4.webp"
+        alt="Gambar artikel"
+        style="width: 100%;"
+        
+      />
+      <p class="description">
+        Transient ischaemic attack (TIA) adalah stroke ringan. Kondisi ini terjadi saat pasokan darah ke otak mengalami gangguan sesaat dan biasanya berlangsung sebentar. Meski begitu, kondisi ini perlu diwaspadai karena menjadi peringatan datangnya serangan yang lebih parah. Sebuah studi menyebutkan jika seseorang yang mengalami TIA berisiko lebih besar mengidap stroke dan serangan jantung.
+
+    Waspada Gejala Transient Ischaemic Attack (TIA)
+    Gejala TIA umumnya terjadi secara mendadak dan hampir mirip dengan gejala awal stroke, di antaranya adalah:
+    
+    Salah satu sisi mulut dan wajah menurun.
+    Lengan atau kaki melemah dan sulit digerakkan.
+    Penurunan kemampuan berbicara.
+    Kesulitan memahami kata-kata orang lain.
+    Kesulitan menelan.
+    Kehilangan keseimbangan tubuh.
+    Pandangan kabur hingga kebutaan.
+    Nyeri kepala tiba-tiba dan berat tanpa penyebab yang jelas.
+    Kamu perlu segera bicara pada dokter jika mengalami gejala di atas. Diagnosis TIA dilakukan dengan pemeriksaan fisik dan penunjang, seperti pemeriksaan tekanan darah, kolesterol, gula darah, dan kadar asam amino homosistein dalam tubuh. Pemeriksaan pencitraan yang dilakukan umumnya berupa ultrasonografi (USG), Computerized Tomography (CT) scan, Magnetic Resonance Imaging (MRI), Magnetic Resonance Angiography (MRA), ekokardiografi, dan arteriografi.
+    
+    Setelah diagnosis TIA ditetapkan, pengobatan disesuaikan dengan penyebab yang mendasarinya. Namun secara umum, pengobatan TIA bertujuan memperbaiki keabnormalan dan mencegah risiko stroke dengan pemberian obat-obatan hingga prosedur operasi.
+    
+    Ketahui Faktor Risiko Transient Ischaemic Attack (TIA)
+    Penyebab utama TIA adalah penggumpalan darah dalam arteri yang menyumbat aliran darah ke otak. Selain itu, ada faktor yang meningkatkan risiko terjadinya TIA, seperti:
+    
+    Usia. TIA lebih rentan terjadi pada orang yang berusia lanjut, yakni lebih dari 55 tahun.
+    Jenis kelamin. Pria lebih berisiko mengidap TIA dibanding wanita.
+    Memiliki tekanan darah dan kadar kolesterol tinggi.
+    Faktor genetik. Kamu berisiko lebih besar mengidap TIA jika ada anggota keluarga yang pernah mengalaminya.
+    Pola hidup yang kurang baik, seperti kebiasaan merokok, sering mengonsumsi minuman keras, kurang berolahraga, banyak konsumsi makanan asin dan berlemak, serta menggunakan obat-obatan terlarang.
+    Masalah kesehatan, seperti kelainan jantung, gagal jantung, detak jantung abnormal (seperti bradikardi dan takikardi), dan diabetes.
+    Cegah Transient Ischaemic Attack (TIA) dengan Gaya Hidup Sehat
+    Berikut cara mencegah TIA yang bisa dilakukan:
+    
+    Rutin berolahraga untuk melancarkan aliran darah dan menjaga kebugaran tubuh. Durasi aktivitas fisik yang dianjurkan adalah 2,5 jam per minggu atau sekitar 15 - 30 menit per hari.
+    Berhenti merokok, hindari penyalahgunaan obat-obatan, dan konsumsi minuman beralkohol.
+    Rutin memantau tekanan darah dan kolesterol dalam tubuh.
+    Menjaga berat badan agar tetap ideal. Kelebihan berat badan (overweight) dan obesitas meningkatkan risiko terjadinya TIA.
+    Menerapkan pola makan sehat. Perbanyak konsumsi buah dan sayuran, serta membatasi asupan garam dan lemak harian. Terlalu banyak konsumsi makanan berlemak meningkatkan risiko pembentukan plak dalam pembuluh darah arteri yang memicu TIA dan penyakit kardiovaskuler lainnya (seperti stroke, diabetes dan serangan jantung.
+      </p>
+      <p class="description">
+        Sumber :
+        <a
+          href="https://www.halodoc.com/artikel/faktor-risiko-tia-transient-ischaemic-attack"
+          >https://www.halodoc.com/artikel/faktor-risiko-tia-transient-ischaemic-attack</a
+        >
+      </p>
+      <p id="demo"></p>
+    </div>
+
+
+    <footer>
+      <footer-healthcare></footer-healthcare>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/5888c925db.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    {% include 'scripts-js.html' %}  
+  </body>
+</html>

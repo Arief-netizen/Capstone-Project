@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+    <title>Deteksi Penyakit Stroke</title>
+  </head>
+  <body>
+    <app-bar></app-bar>
+
+
+    <div class="section" id="#demo">
+      
+      <p class="artikel-title">
+        Inilah Perbedaan antara Stroke Hemoragik dan Stroke Iskemik
+      </p>
+      <p class="artikel-subtitle">
+        <i class="fa-solid fa-user" style="color: #041562"></i> dr. Rizal Fadli, 22 Agustus 2022
+      </p>
+      <img
+        src="https://d1bpj0tv6vfxyp.cloudfront.net/articles/2558_22-8-2022_12-4-43.webp"
+        alt="Gambar artikel"
+        style="width: 100%;"
+        
+      />
+      <p class="description">
+        Kurang berolahraga, gemar mengonsumsi alkohol, dan kebiasaan merokok adalah gaya hidup yang rentan terhadap beberapa penyakit kronis, salah satunya adalah stroke. Stroke adalah gangguan kesehatan yang disebabkan terganggunya pasokan darah menuju otak akibat penyumbatan atau pecahnya pembuluh darah. Sebaiknya lakukan gaya hidup yang lebih sehat untuk menghindari penyakit stroke. 
+
+    Ketahui Penyebab Penyakit Stroke
+    Tanpa asupan darah yang cukup menuju otak tentu sel-sel dalam otak mati. Kondisi ini yang dapat menyebabkan komplikasi pada pengidap stroke. Ada dua penyebab seseorang mengalami penyakit stroke, pertama karena penyumbatan pada saluran darah menuju otak yang dikenal juga dengan stroke iskemik. Kedua, disebabkan pecahnya pembuluh darah atau dikenal dengan stroke hemoragik.
+    
+    Lalu, bagaimana cara membedakan kedua penyebab stroke ini? Sebelum membedakan kedua penyebab stroke, sebaiknya ketahui lebih banyak tentang stroke hemoragik dan stroke iskemik.
+    
+    1. Stroke Hemoragik
+    Seseorang dikatakan mengalami stroke hemoragik ketika pembuluh darah pada otak mengalami pecah atau kebocoran. Awalnya, melemahnya pembuluh darah seseorang membuat pembuluh darah pada otak pecah. Darah yang tumpah akibat pecah atau bocor menyebabkan penumpukan dan menghambat jaringan otak. Jika tidak segera diatasi, kondisi ini dapat menyebabkan kematian atau keadaan koma yang panjang.
+    
+    2. Stroke Iskemik
+    Stroke iskemik terjadi karena ada penyumbatan oleh darah beku pada aliran darah menuju otak. Pembekuan darah pada aliran darah menuju otak disebabkan oleh timbunan lemak pada aliran darah. 
+    
+    Ketahui Letak Perbedaan Kedua Jenis Stroke Ini
+    Gejala stroke yang umum terjadi adalah kondisi tungkai yang mati rasa, sulit berbicara sehingga menyebabkan bicara menjadi kacau dan biasanya pengidap stroke mengalami kondisi wajah yang lebih menurun. Tidak hanya itu, gejala lain dapat terjadi dan disesuaikan dengan jenis stroke yang dialami pengidapnya.
+    
+    Stroke hemoragik menimbulkan gejala seperti kejang-kejang pada pengidapnya. Perawatan pada stroke hemoragik juga lebih menekankan pengendalian perdarahan yang terjadi. Kondisi stroke hemoragik dapat meningkatkan risiko kematian yang cukup besar pada pengidapnya.
+    
+    Sedangkan pengobatan untuk stroke iskemik dilakukan dengan menangani dan menghilangkan gumpalan darah yang terjadi akibat pembekuan darah. Penggunaan obat seperti aspirin bisa dilakukan dalam keadaan darurat. Pemberian aspirin juga dapat dilakukan setelah memastikan bahwa pasien mengidap stroke iskemik.
+    
+    Pencegahan Penyakit Stroke
+    Gaya hidup sehat dapat menghindari kamu dari penyakit stroke. Hindari berat badan yang berlebihan atau obesitas karena meningkatkan risiko stroke. Selain itu, jangan lupa untuk tetap rutin melakukan olahraga. Tidak hanya mencegah penyakit stroke, rutin berolahraga juga dapat menghindari kamu dari berbagai penyakit salah satunya gangguan jantung.
+    
+    Pola makan sehari-hari juga perlu diperhatikan dengan baik. Terlalu banyak mengonsumsi makanan yang mengandung garam tinggi mengganggu kesehatan pembuluh darah. Selain itu, pilih makanan yang memiliki lemak sehat. Mengonsumsi lemak jenuh menyebabkan kolesterol naik yang menyebabkan gumpalan pada aliran darah..
+      </p>
+      <p class="description">
+        Sumber :
+        <a
+          href="https://www.halodoc.com/artikel/inilah-perbedaan-antara-stroke-hemoragik-dan-stroke-iskemik"
+          >https://www.halodoc.com/artikel/inilah-perbedaan-antara-stroke-hemoragik-dan-stroke-iskemik</a
+        >
+      </p>
+      <p id="demo"></p>
+    </div>
+
+
+    <footer>
+      <footer-healthcare></footer-healthcare>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/5888c925db.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    {% include 'scripts-js.html' %}  
+  </body>
+</html>

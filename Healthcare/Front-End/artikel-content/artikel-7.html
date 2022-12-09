@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+    <title>Deteksi Penyakit Stroke</title>
+  </head>
+  <body>
+    <app-bar></app-bar>
+
+
+    <div class="section" id="#demo">
+      
+      <p class="artikel-title">
+        Apa itu Stroke?
+      </p>
+      <p class="artikel-subtitle">
+        <i class="fa-solid fa-user" style="color: #041562"></i> Dr. Pittara, 9 Mei 2022
+      </p>
+      <img
+        src="https://res.cloudinary.com/dk0z4ums3/image/upload/v1589838507/attached_image/stroke-0-alodokter.jpg"
+        alt="Gambar artikel"
+        style="width: 100%;"
+        
+      />
+      <p class="description">
+        Stroke adalah kondisi ketika pasokan darah ke otak terganggu karena penyumbatan (stroke iskemik) atau pecahnya pembuluh darah (stroke hemoragik). Kondisi ini menyebabkan area tertentu pada otak tidak mendapat suplai oksigen dan nutrisi sehingga terjadi kematian sel-sel otak.
+    Stroke merupakan keadaan darurat medis, karena tanpa suplai oksigen dan nutrisi, sel-sel pada bagian otak yang terdampak bisa mati hanya dalam hitungan menit. Akibatnya, bagian tubuh yang dikendalikan oleh area otak tersebut tidak bisa berfungsi dengan baik.
+    
+    Gejala stroke umumnya terjadi di bagian tubuh yang dikendalikan oleh area otak yang rusak. Gejala yang dialami penderita stroke bisa meliputi:
+      </p>
+      
+      <ul class="description">
+        <li>Lemah pada otot-otot wajah yang membuat satu sisi wajah turun</li>	
+        <li>Kesulitan mengangkat kedua lengan akibat lemas atau mati rasa</li>
+        <li>Kesulitan berbicara</li>
+        <li>Disartria</li>
+        <li>Kesemutan</li>
+        <li>Kesulitan mengenal wajah (prosopagnosia)</li>
+      </ul>
+    
+      <p class="description">
+        Penyebab stroke secara umum terbagi menjadi dua, yaitu adanya gumpalan darah pada pembuluh darah di otak dan pecahnya pembuluh darah di otak.
+    Penyempitan atau pecahnya pembuluh darah tersebut dapat terjadi akibat beberapa faktor, seperti tekanan darah tinggi, penggunaan obat pengencer darah, aneurisma otak, dan trauma otak.
+    
+    Penanganan stroke tergantung pada jenis stroke yang dialami pasien. Tindakan yang dapat dilakukan bisa berupa pemberian obat-obatan atau operasi. Selain itu, untuk mendukung proses pemulihan, penderita akan disarankan untuk menjalani fisioterapi dan terapi psikologis.
+    
+    Pada umumnya, pencegahan stroke hampir sama dengan cara mencegah penyakit jantung, yaitu dengan menerapkan pola hidup sehat, seperti:
+      </p>
+      <ul class="description">
+        <li>Menjaga tekanan darah agar tetap normal</li>
+        <li>Tidak merokok dan tidak mengonsumsi minuman beralkohol</li>
+        <li>Menjaga berat badan ideal</li>
+        <li>Berolahraga secara rutin</li>
+        <li>Menjalani pemeriksaan rutin untuk kondisi medis yang diderita, misalnya diabetes dan hipertensi</li>
+      </ul>
+
+      <p class="description">
+        Sumber :
+        <a
+          href="https://www.alodokter.com/stroke"
+          >https://www.alodokter.com/stroke</a
+        >
+      </p>
+      <p id="demo"></p>
+    </div>
+
+
+    <footer>
+      <footer-healthcare></footer-healthcare>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/5888c925db.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    {% include 'scripts-js.html' %}  
+  </body>
+</html>
