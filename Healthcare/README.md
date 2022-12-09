@@ -14,4 +14,4 @@
 
 5. Untuk stop server tekan `ctrl + c` pada terminal.
 
-6. Untuk refresh perubahan yang dilakukan pada text editor harus stop server dulu pada terminal ```ctrl + c``` lalu ```flask run``` lagi, lalu reload halaman pada web
+6. Untuk refresh perubahan yang dilakukan pada text editor harus stop server dulu pada terminal dengan menekan ```ctrl + c``` lalu ketik ```flask run``` lagi, lalu reload halaman pada web
