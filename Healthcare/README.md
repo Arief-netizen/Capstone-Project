@@ -1,17 +1,15 @@
-3. Install All the Requirements Inside "requirements.txt"
+1. Buka folder project `Web-Deployment` pada text editor.
+
+2. Jalankan melalui terminal untuk Install Dependencies yang ada didalam file "requirements.txt"
    ```
    pip install -r requirements.txt
    ```
 
-4. Import Flask App & Run Server
+3. Jalankan melalui terminal:
    ```
    flask run
    ```
-   or
-   ```
-   python app.py
-   ```
 
-5. Stop the application program or server by `ctrl + c`.
+4. Untuk menghentikan server tekan `ctrl + c` pada terminal.
 
----
+5. Untuk refresh perubahan yang dilakukan haru stop server dulu lalu jalankan lagi, lalu reload halaman pada web
