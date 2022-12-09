@@ -1,7 +1,7 @@
 !!! Problem di halaman Artikel Kesehatan
 
-Ini aku bikin konten artikelnya mulai dari artikel-1 sampai artikel-7 sendiri-sendiri karena aku nggk tau solvenya gimana (nggk bisa menuju ke halaman artikel-detail.html)
-Karena di file artikel-item.js ada code ```href="./artikel-detail.html?judul=${this._artikel.judul}"```
+Ini aku bikin konten artikelnya mulai dari ```artikel-1``` sampai ```artikel-7``` sendiri-sendiri karena aku nggk tau solvenya gimana (nggk bisa menuju ke halaman ```artikel-detail.html```)
+Karena di file ```artikel-item.js``` ada code ```href="./artikel-detail.html?judul=${this._artikel.judul}"```
 nah Python @app.route nya nggak bisa menjalankan code ...```?judul=${this._artikel.judul}```
 jadinya ke render Page Not Found :(
 Jadi mungkin ini jalan satu-satunya biar detail artikelnya bisa tampil.
