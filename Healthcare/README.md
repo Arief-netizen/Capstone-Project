@@ -1,6 +1,6 @@
 1. Clone this Repository
    ```
-   git clone https://github.com/aNdr3W03/Jernihin.git
+   git clone https://github.com/arief/Jernihin.git
    ```
 
 3. Install All the Requirements Inside "requirements.txt"
