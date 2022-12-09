@@ -16,18 +16,18 @@
 
 ### Setup Local
 
-1. Buka folder ```Healthcare``` dengan text editor.
+1. Buka folder Healthcare dengan text editor.
 
-2. Pada terminal install dependencies yang terletak di file ```requirements.txt``` dengan command:
-    ```
+2. Pada terminal install dependencies yang terletak di file requirements.txt dengan command:
+    ```bash
     pip install -r requirements.txt
     ```
 
 3. Lalu jalankan aplikasi pada terminal dengan command:
-    ```
+    ```bash
     flask run
     ```
 
-4. Jalankan ```http://127.0.0.1:5000``` pada browser.
+4. Jalankan http://127.0.0.1:5000 pada browser.
 
-5. Untuk stop aplikasi tekan ```CTRL + C``` pada terminal.
+5. Untuk stop aplikasi tekan CTRL + C pada terminal.
