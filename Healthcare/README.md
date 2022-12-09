@@ -1,8 +1,3 @@
-1. Clone this Repository
-   ```
-   git clone https://github.com/arief/Healthcare.git
-   ```
-
 3. Install All the Requirements Inside "requirements.txt"
    ```
    pip install -r requirements.txt
