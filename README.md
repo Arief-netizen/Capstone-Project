@@ -14,7 +14,7 @@
 
 **Desain Aplikasi :** [Mockup](https://www.figma.com/file/MGVtkZNJYG899CkmT3ytBl/SIB-Dicoding-3-MLFE---C22-083?node-id=1%3A2&t=qCyVeegtS7MG2iBh-1)
 
-**Tautan Aplikasi : **[Healthcare](https://healthcareapp.up.railway.app/)
+**Tautan Aplikasi :** [Healthcare](https://healthcareapp.up.railway.app/)
 
 ### Setup Local
 
