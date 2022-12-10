@@ -7,18 +7,24 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <title>Tentang Kami</title>
-    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='img/favicon.ico') }}">
-    
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="{{ url_for('static', filename='img/favicon.ico') }}"
+    />
   </head>
   <body>
     <app-bar></app-bar>
-    
+
     <div class="section">
       <div class="row">
         <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
@@ -92,7 +98,7 @@
             <div class="card-body">
               <h2>Nikolas Edo &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
               <h5>FrontEnd Developer</h5>
-              <br>
+              <br />
               <div class="person-univ">
                 <i class="fa fa-child"></i>
                 <p>Biologi, Universitas Airlangga</p>
@@ -111,13 +117,12 @@
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-
           <div class="card profile-item">
             <img
               style="height: 350px"
               class="card-img-top"
               alt="gambar"
-              src="{{url_for('static', filename='img/erin.jpeg')}}"
+              src="{{url_for('static', filename='img/erin.png')}}"
             />
             <div class="card-body">
               <h2>Erin Nur Fatimah</h2>
