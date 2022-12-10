@@ -44,7 +44,7 @@ const artikelData = [
       "https://www.halodoc.com/artikel/mengenal-golden-period-dalam-penanganan-stroke",
   },
   {
-    judul: "Masih Muda, Bisa Juga kena Stroke &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+    judul: "Masih Muda, Bisa Juga kena Stroke",
     penulis: "dr. Rizal Fadli",
     tanggal_terbit: "22 Agustus 2022",
     img_url:
@@ -212,7 +212,7 @@ const artikelData = [
       "https://www.halodoc.com/artikel/faktor-risiko-tia-transient-ischaemic-attack",
   },
   {
-    judul: "About Stroke ? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Bahasa Inggris) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+    judul: "About Stroke ? (Bahasa Inggris)",
     penulis: "CDC",
     tanggal_terbit: "2022",
     img_url: "https://www.cdc.gov/stroke/images/Stroke-Medical-Illustration.jpg?_=77303",
@@ -223,7 +223,7 @@ const artikelData = [
     sumber: "https://www.cdc.gov/stroke/about.htm#:~:text=A%20stroke%2C%20sometimes%20called%20a,term%20disability%2C%20or%20even%20death.",
   },
   {
-    judul: "Apa itu Stroke? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+    judul: "Apa itu Stroke?",
     penulis: "dr. Pittara",
     tanggal_terbit: "9 Mei 2022",
     img_url: "https://res.cloudinary.com/dk0z4ums3/image/upload/v1589838507/attached_image/stroke-0-alodokter.jpg",
