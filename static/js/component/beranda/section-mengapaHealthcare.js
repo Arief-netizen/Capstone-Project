@@ -7,7 +7,7 @@ class SectionMengapaHealthcare extends HTMLElement {
       <div class="section">
         <div class="d-lg-flex flex-lg-row">
           <div class="sub-section mt-5">
-            <span class="" id="subtitle">Mengapa Helathcare Hadir?</span>
+            <span class="" id="subtitle">Mengapa Healthcare Hadir?</span>
             <p class="description">
               Serangan stroke menjadi nomor dua dalam penyakit pembunuh menurut
               WHO pada tahun 2021. Data statistik menunjukkan bahwa satu dari
