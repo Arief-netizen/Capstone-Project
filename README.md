@@ -33,3 +33,10 @@
 4. Jalankan http://127.0.0.1:5000 pada browser.
 
 5. Untuk stop aplikasi tekan CTRL + C pada terminal.
+
+
+
+
+Hasilnya
+![Hasil-Cek-Kesehatan](https://user-images.githubusercontent.com/56224972/206915583-1842285d-d73b-49be-ae42-59d8153bcfdd.png)
+
