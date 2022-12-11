@@ -34,20 +34,20 @@
 
 5. Untuk stop aplikasi tekan CTRL + C pada terminal.
 
-### Panduan Cek Kesehatan
+### Panduan Cek Kesehatan Untuk Pengguna
 
-1.	Buka dengan browser link ini https://healthcareapp.up.railway.app/
+1.	Buka dengan browser untuk membuka aplikasi healtcare dengan tautan berikut https://healthcareapp.up.railway.app/
 
 2.	Pada bagian menu navigasi, klik cek kesehatan 
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/100463948/206916836-f708fbf1-c03f-415c-a6df-060b43391b20.png">
 
 3.	Terdapat formulir yang harus diisi sesuai dengan data pribadi untuk bisa dilakukan prediksi peluang terkena serangan stroke.
+![image](https://user-images.githubusercontent.com/100463948/206917172-a97c4288-45af-4883-85fb-8cd81251c4ce.png)
 
 4.	Klik submit 
 
 5.	Hasil akan muncul dengan saran: apakah berpeluang terkena stroke atau tidak berpeluang terkena stroke.
 
-
-Hasilnya
 
 ![Hasil-Cek-Kesehatan](https://user-images.githubusercontent.com/56224972/206915583-1842285d-d73b-49be-ae42-59d8153bcfdd.png)
 
